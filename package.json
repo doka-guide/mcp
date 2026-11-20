@@ -2,7 +2,26 @@
   "name": "@doka-guide/mcp",
   "version": "0.1.0",
   "description": "MCP-сервер Доки: поиск и чтение материалов doka.guide из редактора кода",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "doka",
+    "doka.guide",
+    "documentation",
+    "css",
+    "html",
+    "javascript",
+    "russian"
+  ],
   "license": "MIT",
+  "homepage": "https://github.com/doka-guide/mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doka-guide/mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doka-guide/mcp/issues"
+  },
   "type": "module",
   "bin": {
     "doka-mcp": "src/index.js"
@@ -13,9 +32,8 @@
   "engines": {
     "node": ">=20"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/doka-guide/mcp.git"
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.21.1",
